@@ -1,6 +1,6 @@
 # Devops_Course
 Devops class material
-<title>Tasks</title>
+Tasks:
 <ul>
 <li>creating first instance</li>
 <li>making them ready for configs</li>
