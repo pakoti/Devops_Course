@@ -1,5 +1,6 @@
 #this server will play the web server role in our task
 #root paqsswords will be deleted in near future
+#!/bin/bash
 echo ===================================================================================================================
 echo [+]Script need tobe root
 echo ===================================================================================================================
