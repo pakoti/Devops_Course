@@ -3,24 +3,25 @@
 in this task we install ssl on our previuos web server.we want to install self-signed certificated on our nginx server.
 </p>
 <ul>
-<li>1.make a ssl directory in /etc/nginx/</li>
-<li>2.generate a private key</li>
+<li>1.make private and public key for ssl certificate</li>
+<li>2.configure nginx to use our self-signed ssl certificates</li>
 <li>3.</li>
-<li>1.</li>
-<li>1.</li>
-<li>1.</li>
+<li>4.</li>
+<li>5.</li>
+<li>6.</li>
 </li>
 </ul>
 
 
-<h1>how to make a ssl directory in /etc/nginx/:</h1>
+
+
+<h1>how to make private and public key for ssl certificate:</h1>
 <ul>
 <li>1.make a directory in /etc/nginx/:
 
     mkdir /etc/nginx/ssl
 
 </li>
-
 
 <p>and also how to generate a private and public key:</p>
 
@@ -41,15 +42,67 @@ in this task we install ssl on our previuos web server.we want to install self-s
 
 <li>4.make a "self-signed" public key:
 
-    openssl rsa -in server.key -out private.key
+    openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout private.key -out public.crt
 
 </li>
 
+<li>5.we should remove server.key because we dont need it:
+
+    rm -rf server.key
+
+</li>
 </ul>
 
-<h1></h1>
+
+
+<h1>how to configure nginx to use our self-signed ssl certificates:</h1>
 <ul>
-<li>1.</li>
+
+
+<li>1.
+
+
+</li>
+<li>1.move our default configuration because we dont want our servers to execute old configurations
+
+    mv /etc/nginx/conf.d/default.conf /etc/nginx/conf.d/default.bak
+
+</li>
+<p>every nginx has a parent configuration file and it is in /etc/nginx/nginx.conf
+</p>
+<li>2.write a new configuration file in /etc/nginx/conf.d/pakotinews.conf
+
+    server {
+            listen 80;
+            server_name www.farsnews.ir;
+            return 301 https://www.farsnews.ir$request_uri;
+    }
+
+    server {
+            listen 443 ssl;
+            server_name www.farsnews.ir;
+            ssl_certificate /etc/nginx/ssl/public.crt;
+            ssl_certificate_key     /etc/nginx/ssl/private.key;
+            location / {
+                    root /usr/share/nginx/html;
+                    index index.html index.htm;
+            }
+    }
+
+</li>
+<li>3.after saving the configuration file you should check for the syntax of it:
+
+    nginx -t 
+    
+</li>
+
+<li>4.then restart nginx for applying the changes:
+
+    systemctl resart nginx
+
+</li>
+
+
 </ul>
 
 
