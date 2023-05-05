@@ -11,6 +11,7 @@
 <li>8.check and disable firewalls for only this time</li>
 <li>9.disabling firewalld</li>
 <li>10.changing default page of nginx</li>
+<li>11.check logs of our new web server</li>
 </ul>
 
 <h1>how to set internal ip address:</h1>
@@ -29,7 +30,7 @@
     DNS1=1.1.1.1
     DNS2=8.8.8.8
     ONBOOT=YES
-    
+
 </li>
 <li>for saving it:syste,ctl restart NetworkManager</li>
 </ul>
@@ -105,5 +106,19 @@ disabling firewall rules:
 <li>for editing html files:
 
     vim /usr/share/nginx/html
+</li>
+</ul>
+
+<h1>how to check logs for error and accesses:</h1>
+<ul>
+<li>for checking errors:
+
+    tail -f -n 20 /var/log/nginx/error.log
+
+</li>
+<li>for checking access logs:
+
+    tail -f -n 20 /var/log/nginx/access.log
+
 </li>
 </ul>
