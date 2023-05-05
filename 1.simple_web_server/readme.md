@@ -97,6 +97,7 @@ disabling firewall rules:
 </ul>
 
 <h1>How to change default page of nginx:</h1>
+<p>default configuration file for nginx in alma linux is in /etc/nginx/nginx.conf .the /etc/nginx/nginx.conf directory is used to store additional configuration files that can be included in main nginx configuration file.</p>
 <ul>
 <li>for eding nginx configyration file:
 
