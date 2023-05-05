@@ -1,9 +1,9 @@
 #this server will play the web server role in our task
-
 echo ===================================================================================================================
 echo [+]Script need tobe root
+echo ===================================================================================================================
+
 hostnamectl set-hostname server1
-passwd
 yum update  -y & yum upgrade -y 
 yum autoremove -y
 yum install nginx -y
@@ -29,4 +29,6 @@ systemctl start nginx
 iptables -nL
 iptables -F
 systemctl disable --now firewalld
-
+echo ===================================================================================================================
+echo [+]WebServer Updated and Upgraded and successfully is running a nginx
+echo ===================================================================================================================

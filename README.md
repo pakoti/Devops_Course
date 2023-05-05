@@ -5,8 +5,8 @@ Devops class Codes
 <h1>Tasks:</h1>
 <ul>
 <li>1.making a simple nginx web server</li>
-<li>...</li>
-<li>....</li>
+<li>2. ...</li>
+<li>3. ...</li>
 </ul>
 
 <p>To be continued in near future</p>

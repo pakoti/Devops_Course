@@ -3,8 +3,8 @@
 
 echo ===================================================================================================================
 echo [+]Script need tobe root
+echo ===================================================================================================================
 hostnamectl set-hostname server2
-passwd 
 yum update  -y & yum upgrade -y 
 yum autoremove -y
 yum install nginx -y
@@ -25,3 +25,6 @@ gpgcheck=1
 enabled=0
 gpgkey=https://nginx.org/keys/nginx_signing.key
 module_hotfixes=true" > /etc/yum.repos.d/nginx.repo
+echo ===================================================================================================================
+echo [+] Server Updated and Upgraded and successfully is running and can be a client for webserver
+echo ===================================================================================================================
