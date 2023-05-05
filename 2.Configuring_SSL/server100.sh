@@ -10,6 +10,7 @@ openssl rsa -in server.key -out private.key
 openssl rsa -in server.key -out private.key
 rm -rf server.key
 cd ..
+
 mv /etc/nginx/conf.d/default.conf /etc/nginx/conf.d/default.bak
 echo "server {
         listen 80;
@@ -27,3 +28,7 @@ server {
                 index index.html index.htm;
         }
 }" > /etc/nginx/conf.d/pakotinews.conf
+
+nginx -t 
+systemctl resart nginx
+
