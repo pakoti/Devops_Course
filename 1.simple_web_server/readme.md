@@ -15,10 +15,13 @@
 
 <h1>how to set internal ip address:</h1>
 <ul>
-<li>
+<li>edit network adaptor setting:
+    
     vim /etc/sysconfig/network-scripts/ifcfg-enp0s3
+
 </li>
 <li> add this to the file:
+
     BOOTPROTO=YES
     IPADDR=192.168.X.X
     MASK=255.255.255.0
@@ -26,6 +29,7 @@
     DNS1=1.1.1.1
     DNS2=8.8.8.8
     ONBOOT=YES
+    
 </li>
 <li>for saving it:syste,ctl restart NetworkManager</li>
 </ul>
@@ -35,7 +39,7 @@
 <li>to change a webserver name only:
     
     hostnamectl set-hostname server100
-    
+
 </li>
 </ul>
 
