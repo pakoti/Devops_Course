@@ -32,8 +32,10 @@
 
 <h1>how to give servers a name:</h1>
 <ul>
-<li>to change a webserver name only
-    hostnamectl set-hostname {whatever}
+<li>to change a webserver name only:
+    
+    hostnamectl set-hostname server100
+    
 </li>
 </ul>
 
