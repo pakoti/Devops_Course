@@ -74,13 +74,13 @@ in this task we install ssl on our previuos web server.we want to install self-s
 
     server {
             listen 80;
-            server_name www.farsnews.ir;
-            return 301 https://www.farsnews.ir$request_uri;
+            server_name www.pakotinews.ir;
+            return 301 https://www.pakotinews.ir$request_uri;
     }
 
     server {
             listen 443 ssl;
-            server_name www.farsnews.ir;
+            server_name www.pakotinews.ir;
             ssl_certificate /etc/nginx/ssl/public.crt;
             ssl_certificate_key     /etc/nginx/ssl/private.key;
             location / {
@@ -93,7 +93,7 @@ in this task we install ssl on our previuos web server.we want to install self-s
 <li>3.after saving the configuration file you should check for the syntax of it:
 
     nginx -t 
-    
+
 </li>
 
 <li>4.then restart nginx for applying the changes:
