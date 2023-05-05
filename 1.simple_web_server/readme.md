@@ -16,24 +16,24 @@
 <h1>how to set internal ip address:</h1>
 <ul>
 <li>
-vim /etc/sysconfig/network-scripts/ifcfg-enp0s3
+    vim /etc/sysconfig/network-scripts/ifcfg-enp0s3
 </li>
 <li> add this to the file:
-BOOTPROTO=YES
-IPADDR=192.168.X.X
-MASK=255.255.255.0
-GATEWAY=192.168.1.1
-DNS1=1.1.1.1
-DNS2=8.8.8.8
-ONBOOT=YES
+    BOOTPROTO=YES
+    IPADDR=192.168.X.X
+    MASK=255.255.255.0
+    GATEWAY=192.168.1.1
+    DNS1=1.1.1.1
+    DNS2=8.8.8.8
+    ONBOOT=YES
 </li>
 <li>for saving it:syste,ctl restart NetworkManager</li>
 </ul>
 
 <h1>how to give servers a name:</h1>
 <ul>
-<li>
-hostnamectl set-hostname {whatever}
+<li>to change a webserver name only
+    hostnamectl set-hostname {whatever}
 </li>
 </ul>
 
@@ -70,21 +70,34 @@ To set up the yum repository, create the file named /etc/yum.repos.d/nginx.repo 
 <li>
 start the web server:
 
-systemctl start nginx
+    systemctl start nginx
 </li>
 <li>
 check for firewall rules:
 
-iptables -nL
+    iptables -nL
 </li>
 <li>
 flush the existing rules:
 
-iptables -F
+    iptables -F
 </li>
 <li>
 disabling firewall rules:
 
-systemctl disable --now firewalld
+    systemctl disable --now firewalld
+</li>
+</ul>
+
+<h1>How to change default page of nginx:</h1>
+<ul>
+<li>for eding nginx configyration file:
+
+    vim /etc/nginx/conf.d/default.conf 
+
+</li>
+<li>for editing html files:
+
+    vim /usr/share/nginx/html
 </li>
 </ul>
