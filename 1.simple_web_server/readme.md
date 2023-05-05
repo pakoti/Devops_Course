@@ -23,5 +23,28 @@
 
 <h1>how to add adding a local repo to servers:</h1>
 <ul>
-<li></li>
+<li> Install the prerequisites:
+
+    sudo yum install yum-utils
+</li>
+
+<li>
+To set up the yum repository, create the file named /etc/yum.repos.d/nginx.repo with the following contents:
+
+    [nginx-stable]
+    name=nginx stable repo
+    baseurl=http://nginx.org/packages/centos/$releasever/$basearch/
+    gpgcheck=1
+    enabled=1
+    gpgkey=https://nginx.org/keys/nginx_signing.key
+    module_hotfixes=true
+
+    [nginx-mainline]
+    name=nginx mainline repo
+    baseurl=http://nginx.org/packages/mainline/centos/$releasever/$basearch/
+    gpgcheck=1
+    enabled=0
+    gpgkey=https://nginx.org/keys/nginx_signing.key
+    module_hotfixes=true   
+</li>
 </ul>
