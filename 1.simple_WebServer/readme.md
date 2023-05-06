@@ -1,4 +1,4 @@
-<h1>simple nginx web server</h1>
+<h1>Simple nginx web server</h1>
 <p>this script is for new images or instances.it makes the new environment ready without typing and waiting so much.this scripts are written in alma linux.</p>
 <ul>
 <li>1.creating instaces in cloud</li>
@@ -14,14 +14,14 @@
 <li>11.check logs of our new web server</li>
 </ul>
 
-<h1>how to set internal ip address:</h1>
+<h1>How to set internal ip address:</h1>
 <ul>
-<li>edit network adaptor setting:
+<li>Edit network adaptor setting:
     
     vim /etc/sysconfig/network-scripts/ifcfg-enp0s3
 
 </li>
-<li> add this to the file:
+<li> Add this to the file:
 
     BOOTPROTO=YES
     IPADDR=192.168.X.X
@@ -35,7 +35,7 @@
 <li>for saving it:syste,ctl restart NetworkManager</li>
 </ul>
 
-<h1>how to give servers a name:</h1>
+<h1>How to give servers a name:</h1>
 <ul>
 <li>to change a webserver name only:
     
@@ -44,7 +44,7 @@
 </li>
 </ul>
 
-<h1>how to add adding a local repo to servers:</h1>
+<h1>How to add adding a local repo to servers:</h1>
 <ul>
 <li> Install the prerequisites:
 
@@ -72,7 +72,7 @@ To set up the yum repository, create the file named /etc/yum.repos.d/nginx.repo 
 </li>
 </ul>
 
-<h1>how to start web server:</h1>
+<h1>How to start web server:</h1>
 <ul>
 <li>
 start the web server:
