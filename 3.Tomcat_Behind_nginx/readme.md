@@ -1,0 +1,61 @@
+<h1>How to run application server on tomcat behind a nginx server:</h1>
+<ul>
+<li>1.Download,install Tomcat from Its packages</li>
+<li>2.Download a simple .war file</li>
+<li>3.</li>
+<li>4.</li>
+</ul>
+
+
+<h1>How to run application server on tomcat behind a nginx server:</h1>
+<ul>
+<li>1.make a directory :
+
+    mkdir /Tomcat/
+
+</li>
+<li>2/1.downloading the proper packages:
+
+    wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.74/bin/apache-tomcat-9.0.74.tar.gz
+
+</li>
+<li>2/2.or you can try this:
+
+    curl -O https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.74/bin/apache-tomcat-9.0.74.tar.gz
+
+</li>
+<p>in /Tomcat/ directory you should un-tar the package and install it.</p>
+<li>4.untar the package:
+
+    tar -zxvf  https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.74/bin/apache-tomcat-9.0.74.tar.gz
+
+</li>
+<li>5.Remove the Package:
+
+    rm -rf apache-tomcat-9.0.74.tar.gz/
+
+</li>
+<p>to run  an application you should only put it in /webapp directory.</p>
+</ul>
+
+<h1>How to run a simple .war file:</h1>
+<ul>
+<p>Download and extract this file in /webapp/ directory</p>
+<li>1.download sample file:
+
+    curl -O https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war
+
+</li>
+<li>2.</li>
+<li>3.</li>
+<li>4.</li>
+</ul>
+
+
+<h1>How to run application server on tomcat behind a nginx server:</h1>
+<ul>
+<li>1.</li>
+<li>2.</li>
+<li>3.</li>
+<li>4.</li>
+</ul>
