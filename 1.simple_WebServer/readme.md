@@ -1,4 +1,4 @@
-<h1>First Task</h1>
+<h1>simple nginx web server</h1>
 <p>this script is for new images or instances.it makes the new environment ready without typing and waiting so much.this scripts are written in alma linux.</p>
 <ul>
 <li>1.creating instaces in cloud</li>

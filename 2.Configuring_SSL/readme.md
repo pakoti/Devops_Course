@@ -1,14 +1,11 @@
-<h1>Second Task</h1>
+<h1>Configuring SSL on Nginx</h1>
 <p>
 in this task we install ssl on our previuos web server.we want to install self-signed certificated on our nginx server.
 </p>
 <ul>
 <li>1.make private and public key for ssl certificate</li>
 <li>2.configure nginx to use our self-signed ssl certificates</li>
-<li>3.</li>
-<li>4.</li>
-<li>5.</li>
-<li>6.</li>
+<li>3. ...</li>
 </li>
 </ul>
 
@@ -101,19 +98,4 @@ in this task we install ssl on our previuos web server.we want to install self-s
     systemctl resart nginx
 
 </li>
-
-
-</ul>
-
-
-<h1></h1>
-<ul>
-<li>1.</li>
-</ul>
-
-
-
-<h1></h1>
-<ul>
-<li>1.</li>
 </ul>
