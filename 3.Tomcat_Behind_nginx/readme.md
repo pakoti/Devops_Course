@@ -40,15 +40,32 @@
 
 <h1>How to run a simple .war file:</h1>
 <ul>
-<p>Download and extract this file in /webapp/ directory</p>
+<p>Download and extract this file in /webapp/ directory.</p>
 <li>1.download sample file:
 
     curl -O https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war
 
 </li>
-<li>2.</li>
-<li>3.</li>
-<li>4.</li>
+<li>2.to run this simple.war file we should have JRE_HOME or JAVA_HOME so in order to check whether we have them or not:
+
+        yum list jdk
+
+        yum search jdk
+
+</li>
+<li>3.the right package to install is:
+
+    yum -y install java-1.8.0-openjdk.x86_64
+
+</li>
+
+<p>what are differences of JDK and JRE?</p>
+
+<li>4.to check what port our Tomcat is listening to:
+
+    yum -y install net-tools
+
+</li>
 </ul>
 
 
