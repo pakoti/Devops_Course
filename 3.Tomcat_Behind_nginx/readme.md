@@ -66,13 +66,39 @@
     yum -y install net-tools
 
 </li>
-</ul>
+<li>5.to check which port are listening to:
 
+    netstat -ntlp
 
-<h1>How to run application server on tomcat behind a nginx server:</h1>
-<ul>
-<li>1.</li>
-<li>2.</li>
-<li>3.</li>
-<li>4.</li>
+</li>
+<li>6.to see SELINUX status:
+
+    getenforce
+
+</li>
+
+<li>7.And also to check to port tomcat is running:
+
+    cat /Tomcat/conf/server.xml
+
+</li>
+<p>if we want to open our website with context root it should be in in /Tomact/ with *.war name.also i should note that nginx as reverse proxy has not root and index in its configuration file.</p>
+<li>7.edit  our pakotinews.ir configuration file in nginx:
+ 
+    vim /etc/nginx/conf.d/pakotinews.conf
+
+.</li>
+<li>8.edit the configuration file like this:
+
+    location /{
+        proxy_pass http://192.168.x.x:8080/sample/;
+    }
+
+</li>
+<li>9.and if you want to change the configuration of SELINUX:
+
+    vim /etc/selinux/config
+
+</li>
+<p>if you change SELINUX=PERMISIVE its only monitor and does nothing.<p>
 </ul>
