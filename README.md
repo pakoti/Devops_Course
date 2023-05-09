@@ -4,13 +4,11 @@ Devops class Codes
 <p>codes,toturials for devops class.we uasally work with alma linux in this course.please also correct me if i was wrong.in each chapter i have written codes and also instruction on how to deploy them in real servers.you can use a vm machines as well as images of different redhat based linux operating systems but as i mentioned i have been on alma linux whole course.</p>
 
 # Course Objectives
-<h1></h1>
 <ul>
 <li>1.nginx as webserver</li>
 <li>2.nginx as reverse proxy</li>
 <li>3.nginx as loadbalancer</li>
 <li>4.</li>
-
 </ul>
 
 # Notes and Codes
