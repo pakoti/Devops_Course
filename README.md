@@ -18,7 +18,6 @@
 
 </ul>
 
-# Notes and Codes
 <h1>Tasks:</h1>
 <p>codes and also a small note is in each directory.</p>
 <ul>
