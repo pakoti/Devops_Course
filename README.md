@@ -8,9 +8,9 @@ Devops class Codes
 <li>1.NGINX as webserver</li>
 <li>2.NGINX as reverse proxy</li>
 <li>3.NGINX as loadbalancer</li>
-<li>4.</li>
-<li>5.</li>
-<li>6.</li>
+<li>4.DNS</li>
+<li>5. ...</li>
+<li>6. ...</li>
 </ul>
 
 # Notes and Codes
@@ -22,6 +22,9 @@ Devops class Codes
 <li>3.Running Tomcat behind Nginx(NGINX as reverse proxy)</li>
 <li>4.Configuring Nginx as Load-balancer(NGINX as loadbalancer)</li>
 <li>5. ...</li>
+<li>6. ...</li>
+<li>7. ...</li>
+
 </ul>
 
 <p>To be continued in near future ...</p>
