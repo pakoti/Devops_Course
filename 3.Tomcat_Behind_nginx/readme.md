@@ -1,9 +1,8 @@
 <h1>How to run application server on tomcat behind a nginx server(NGINX as reverse proxy):</h1>
 <ul>
-<li>1.Download,install Tomcat from Its packages</li>
-<li>2.Download a simple .war file</li>
-<li>3.</li>
-<li>4.</li>
+<li>1.Download,install Tomcat from Its packages.</li>
+<li>2.Download a simple .war file.</li>
+<li>3. ... </li>
 </ul>
 
 
