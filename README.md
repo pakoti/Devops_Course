@@ -1,7 +1,5 @@
 # Devops Course Introduction
-Devops class Codes and notes.each chapter contains codes and also a readme file that can help you better understand the task.
-<h1>Devops Class</h1>
-<p>codes,toturials for devops class.we uasally work with alma linux in this course.please also correct me if i was wrong.in each chapter i have written codes and also instruction on how to deploy them in real servers.in this course we have a server 100 and server 101,which means first or maybe second vm in our configuration.you can use a vm machines as well as images of different redhat based linux operating systems but as i mentioned i have been on alma linux whole course.</p>
+<p>Devops class Codes and notes.each chapter contains codes and also a readme file that can help you better understand the task.we uasally work with alma linux in this course.please also correct me if i was wrong.in each chapter i have written codes and also instruction on how to deploy them in real servers.in this course we have a server 100 and server 101,which means first or maybe second vm in our configuration.you can use a vm machines as well as images of different redhat based linux operating systems but as i mentioned i have been on alma linux whole course.</p>
 
 # Course Objectives
 <ul>
