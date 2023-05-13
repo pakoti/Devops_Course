@@ -9,8 +9,15 @@ Devops class Codes
 <li>2.NGINX as reverse proxy</li>
 <li>3.NGINX as loadbalancer</li>
 <li>4.DNS Concepts</li>
-<li>5. ...</li>
-<li>6. ...</li>
+<li>5.DNS as Master Name Server</li>
+<li>6.DNS as Secondary Name server</li>
+<li>7.DNS as Caching Only Name Server</li>
+<li>8.DNS as Forwarder</li>
+<li>9. ...</li>
+<li>10. ...</li>
+<li>11. ...</li>
+<li>12. ...</li>
+
 </ul>
 
 # Notes and Codes
