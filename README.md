@@ -8,7 +8,7 @@ Devops class Codes
 <li>1.NGINX as webserver</li>
 <li>2.NGINX as reverse proxy</li>
 <li>3.NGINX as loadbalancer</li>
-<li>4.DNS</li>
+<li>4.DNS Concepts</li>
 <li>5. ...</li>
 <li>6. ...</li>
 </ul>
