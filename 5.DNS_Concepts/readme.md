@@ -27,7 +27,7 @@
 <li>5.caching in DNS is based on TTL (also in ICMP we have TTL but that's different concept).in picture-2 it shows that whenever you change ip(because of security reasons or just changing cloud infrastucture.) of a DNS you should consider checking TTL,because changes will not be effective on name-servers so users on internet may think website is down.
 </li>
 
-<li>6.</li>
+<li>6.if you but a dedicated bandwidth fron an isp they sell two ip beside the bw.because of reduction of DNS requests (picture-3) </li>
 
 <li>7.</li>
 
