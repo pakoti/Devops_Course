@@ -22,7 +22,7 @@
     set type=ns
 
 </li>
-<p>if you get directly from name server that contains domain of website then its called authoritative name servers.</p>
-<li>1.</li>
+<p>if you get directly from name server that contains domain of website then its called authoritative name servers.in picture-1 this method is so slow and also takes time.</p>
+<li>5.caching in DNS is based on TTL (also in ICMP we have TTL but that's different concept).in picture-2 it shows that whenever you change ip(because of security reasons or just changing cloud infrastucture.) of a DNS you should consider checking TTL,because changes will not be effective on name-servers so users on internet may think website is down.</li>
 <li>1.</li>
 </ul> 
