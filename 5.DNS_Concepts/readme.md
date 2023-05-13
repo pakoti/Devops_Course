@@ -29,6 +29,6 @@
 
 <li>6.if you but a dedicated bandwidth fron an isp they sell two ip beside the bw.because of reduction of DNS requests (picture-3) </li>
 
-<li>7.</li>
+<li>7.if you ask asriran.com name servers varzesh3.com ip its says:Query refused.we should keep in mind that it this wasnt configured on this website then could perform a DDoS attack on this website by just simply configure that nameserver as a DNS server of just some computers.</li>
 
 </ul> 

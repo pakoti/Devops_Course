@@ -21,9 +21,11 @@ Devops class Codes
 <li>2.Configuring SSL certificate on our nginx webserver</li>
 <li>3.Running Tomcat behind Nginx(NGINX as reverse proxy)</li>
 <li>4.Configuring Nginx as Load-balancer(NGINX as loadbalancer)</li>
-<li>5. ...</li>
-<li>6. ...</li>
-<li>7. ...</li>
+<li>5.Bind as a Master Name Server</li>
+<li>6.Secondary Name server</li>
+<li>7.Caching Only Name Server</li>
+<li>8.Forwarder</li>
+<li>9. ...</li>
 
 </ul>
 
