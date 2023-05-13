@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-
+#run this in nginx side!
 #nginx as a reverse proxy
 #running tomcat behind a nginx server 
 

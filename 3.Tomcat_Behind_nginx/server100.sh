@@ -1,4 +1,7 @@
 #!/bin/bash
+
+
+#run this script of tomact side server!
 #how to run tomcat application server
 echo ===================================================================================================================
 echo [+]Script need tobe root
