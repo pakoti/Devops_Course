@@ -1,6 +1,6 @@
 # DNS Concepts
 <p>in this section we are going to explore dns and its concepts.</p>
-
+<h1>DNS Concepts:
 <ul>
 <li>1.if you want to change dns setting in linux just edit this file:
 
@@ -32,3 +32,16 @@
 <li>7.if you ask asriran.com name servers varzesh3.com ip its says:Query refused.we should keep in mind that it this wasnt configured on this website then could perform a DDoS attack on this website by just simply configure that nameserver as a DNS server of just some computers.</li>
 
 </ul> 
+</h1>
+
+
+<h1>
+<ul>
+<li>1.</li>
+<li>2.</li>
+<li>3.</li>
+<li>4.</li>
+<li>5.</li>
+<li>6.</li>
+</ul>
+</h1>
