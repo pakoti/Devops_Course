@@ -24,12 +24,13 @@
 <li>1.Configuring a simple nginx webserver(NGINX as web server)</li>
 <li>2.Configuring SSL certificate on our nginx webserver</li>
 <li>3.Running Tomcat behind Nginx(NGINX as reverse proxy)</li>
-<li>4.Configuring Nginx as Load-balancer(NGINX as loadbalancer)</li>
-<li>5.Configuring Bind as a Master Name Server</li>
-<li>6.Configuring Secondary Name server</li>
-<li>7.Configuring Caching Only Name Server</li>
-<li>8.Configuring DNS Forwarder</li>
-<li>9. ...</li>
+<li>4.Running PHP behind Nginx(NGINX as reverse proxy) </li>
+<li>5.Configuring Nginx as Load-balancer(NGINX as loadbalancer)</li>
+<li>6.Configuring Bind as a Master Name Server</li>
+<li>7.Configuring Secondary Name server</li>
+<li>8.Configuring Caching Only Name Server</li>
+<li>9.Configuring DNS Forwarder</li>
+<li>10. ...</li>
 
 </ul>
 
