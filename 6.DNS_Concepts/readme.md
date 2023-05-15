@@ -35,15 +35,36 @@
 
 
 
-<h1> </h1> 
+<h1>Scenario 1</h1> 
+<p></p>
 <ul>
 <li>1.installing bind in our servers:
 
     yum -y install bind bind-utils
 
 </li>
-<li>2.</li>
-<li>3.</li>
+<li>2.edit the configuration file:
+
+    vim /etc/named.conf
+
+    recursion no;
+
+
+</li>
+<p>we should put no in front of recursion because we dont want others from internet to resolve dns.</p>
+<li>3.write a zone in dns configuration:
+
+    zone "amin.com"{
+        tyoe master;
+        file "/var/named/data/amin.db";
+        allow-update{none;};
+
+    };
+
+
+
+
+</li>
 <li>4.</li>
 <li>5.</li>
 <li>6.</li>
