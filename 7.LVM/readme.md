@@ -11,11 +11,6 @@
 </ul>
 
 
- --->  ----> 4MiB
- ---> 
-
-PV -----> /dev/sdd1
-
 # How to create extend LVM?
 <p>we suppose that our PV (Physical Volume) </p>  
 
