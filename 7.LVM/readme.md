@@ -17,7 +17,7 @@
 PV -----> /dev/sdd1
 
 # How to create extend LVM?
-    
+<p>we suppose that our PV (Physical Volume) </p>  
 
     fdisk
     pvcreate /dev/sdb2
