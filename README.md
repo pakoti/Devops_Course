@@ -3,18 +3,11 @@
 
 # Course Objectives
 <ul>
-<li>1.NGINX as webserver</li>
-<li>2.NGINX as reverse proxy</li>
-<li>3.NGINX as loadbalancer</li>
+<li>1.NGINX</li>
+<li>2.DNS Concepts</li>
+<li>3.LVM(Logical Volume Manager)</li>
 <li>4.DNS Concepts</li>
-<li>5.DNS as Master Name Server</li>
-<li>6.DNS as Secondary Name server</li>
-<li>7.DNS as Caching Only Name Server</li>
-<li>8.DNS as Forwarder</li>
-<li>9.LVM(Logical Volume Manager)</li>
-<li>10. ...</li>
-<li>11. ...</li>
-<li>12. ...</li>
+<li>5.</li>
 
 </ul>
 

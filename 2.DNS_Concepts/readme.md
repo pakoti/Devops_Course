@@ -60,12 +60,6 @@
         allow-update{none;};
 
     };
-
-
-
-
 </li>
-<li>4.</li>
-<li>5.</li>
-<li>6.</li>
+<p>in this lesson we learned how to configure DNS as master name server.</p>
 </ul>
