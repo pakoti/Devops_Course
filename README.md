@@ -11,7 +11,7 @@
 <li>6.DNS as Secondary Name server</li>
 <li>7.DNS as Caching Only Name Server</li>
 <li>8.DNS as Forwarder</li>
-<li>9. ...</li>
+<li>9.LVM(Logical Volume Manager)</li>
 <li>10. ...</li>
 <li>11. ...</li>
 <li>12. ...</li>
@@ -30,8 +30,9 @@
 <li>7.Configuring Secondary Name server</li>
 <li>8.Configuring Caching Only Name Server</li>
 <li>9.Configuring DNS Forwarder</li>
-<li>10. ...</li>
-
+<li>10.Configure Troubleshoot and LVM</li>
+<li>11. ...</li>
+<li>12. ...</li>
 </ul>
 
 <p>To be continued in near future ...</p>
