@@ -4,10 +4,9 @@
 # Course Objectives
 <ul>
 <li>1.NGINX</li>
-<li>2.DNS Concepts</li>
+<li>2.DNS</li>
 <li>3.LVM(Logical Volume Manager)</li>
-<li>4.DNS Concepts</li>
-<li>5.</li>
+<li>4.</li>
 
 </ul>
 
