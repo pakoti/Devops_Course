@@ -13,7 +13,7 @@ on both servers(client and also server) we should install nfs-utils.
  
     systemctl start nfs-lock
 
-
+<p>and then make a directory in directory we want to share:</p>
 
     mkdir /NFS-Share
 
@@ -32,7 +32,7 @@ on both servers(client and also server) we should install nfs-utils.
 <p>and then make a directory:</p>
 
     mkdir /DATA
-    
+
 <p>Mount them to where ever we wanted to:</p>
 
     mount -t nfs 192.168.63.47:/NFS-Share  /DATA
