@@ -1,5 +1,5 @@
 # NFS (Network File System)
-nfs is usefull for transfering files in network.on both servers(client and also server) we should install nfs-utils.
+nfs is usefull for transfering files in network.on both servers(client and also server) we should install nfs-utils.keep in mind that nfs is a filesystem just like other file systems. 
 
 
 <ul>
@@ -7,11 +7,18 @@ nfs is usefull for transfering files in network.on both servers(client and also 
 
     yum -y install nfs-utils
     systemctl start nfs-server
+
+<p>we should start </p>
+
     systemctl start rpcbind
 
 <p>if you are working with redhat linux you should use this command for starting rpcbind</p>
  
     systemctl start nfs-lock
+
+<p>to check if our packages installed or not just type these command:</p>
+
+    systemctl list-units | grep nfs
 
 <p>and then make a directory in directory we want to share:</p>
 
@@ -40,3 +47,4 @@ nfs is usefull for transfering files in network.on both servers(client and also 
 </li>
 
 </ul>
+
