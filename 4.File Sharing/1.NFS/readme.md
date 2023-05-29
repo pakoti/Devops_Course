@@ -1,5 +1,5 @@
 # NFS (Network File System)
-on both servers(client and also server) we should install nfs-utils.
+nfs is usefull for transfering files in network.on both servers(client and also server) we should install nfs-utils.
 
 
 <ul>
