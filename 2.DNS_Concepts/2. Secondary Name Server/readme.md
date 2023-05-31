@@ -1,5 +1,5 @@
 # How Configure DNS as secondary name server
-as we previously saw in Bind Master Zone we configure /etc/named.conf and added this settings:
+as we previously saw in Bind Master Zone we configure <code>/etc/named.conf</code> and added this settings:
 
     zone "amin.com" {
             type master;
@@ -9,7 +9,7 @@ as we previously saw in Bind Master Zone we configure /etc/named.conf and added 
     };
 
 
-<p>we should edit /etc/named.conf again to configure DNS to be as secondary name servers:</p>
+<p>we should edit <code>/etc/named.conf</code> again to configure DNS to be as secondary name servers:</p>
 
     zone "amin.com" {
             type slave;

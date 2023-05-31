@@ -62,6 +62,7 @@ in this configuration both nginx and php are in same server.
 <li>5.to put php sample code 
 
     vim /usr/nginx/share/nginx/html/index.php
+    
 <p>to get php sample code https://www.php.net/manual/en/function.phpinfo.php</p>
 </li>
 <li>6/1.add this to php configuration file:

@@ -23,7 +23,7 @@
     curl -O https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.74/bin/apache-tomcat-9.0.74.tar.gz
 
 </li>
-<p>in /Tomcat/ directory you should un-tar the package and install it.</p>
+<p>in <code>/Tomcat/</code> directory you should un-tar the package and install it.</p>
 <li>4.untar the package:
 
     tar -zxvf  https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.74/bin/apache-tomcat-9.0.74.tar.gz
@@ -39,7 +39,7 @@
 
 <h1>How to run a simple .war file:</h1>
 <ul>
-<p>Download and extract this file in /webapp/ directory.</p>
+<p>Download and extract this file in <code>/webapp/</code> directory.</p>
 <li>1.download sample file:
 
     curl -O https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war
@@ -81,7 +81,7 @@
     cat /Tomcat/conf/server.xml
 
 </li>
-<p>if we want to open our website with context root it should be in in /Tomact/ with *.war name.also i should note that nginx as reverse proxy has not root and index in its configuration file.</p>
+<p>if we want to open our website with context root it should be in in <code>/Tomact/</code> with *.war name.also i should note that nginx as reverse proxy has not root and index in its configuration file.</p>
 <li>7.edit  our pakotinews.ir configuration file in nginx:
  
     vim /etc/nginx/conf.d/pakotinews.conf

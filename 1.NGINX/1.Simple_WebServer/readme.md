@@ -52,7 +52,7 @@
 </li>
 
 <li>
-To set up the yum repository, create the file named /etc/yum.repos.d/nginx.repo with the following contents:
+To set up the yum repository, create the file named <code>/etc/yum.repos.d/nginx.repo</code> with the following contents:
 
     [nginx-stable]
     name=nginx stable repo
@@ -97,7 +97,7 @@ disabling firewall rules:
 </ul>
 
 <h1>How to change default page of nginx:</h1>
-<p>default configuration file for nginx in alma linux is in /etc/nginx/nginx.conf .the /etc/nginx/nginx.conf directory is used to store additional configuration files that can be included in main nginx configuration file.</p>
+<p>default configuration file for nginx in alma linux is in <code>/etc/nginx/nginx.conf</code> .<code> /etc/nginx/nginx.conf</code> directory is used to store additional configuration files that can be included in main nginx configuration file.</p>
 <ul>
 <li>for eding nginx configyration file:
 

@@ -14,7 +14,7 @@ in this task we install ssl on our previuos web server.we want to install self-s
 
 <h1>how to make private and public key for ssl certificate:</h1>
 <ul>
-<li>1.make a directory in /etc/nginx/:
+<li>1.make a directory in <code>/etc/nginx/</code>:
 
     mkdir /etc/nginx/ssl
 
@@ -65,7 +65,7 @@ in this task we install ssl on our previuos web server.we want to install self-s
     mv /etc/nginx/conf.d/default.conf /etc/nginx/conf.d/default.bak
 
 </li>
-<p>every nginx has a parent configuration file and it is in /etc/nginx/nginx.conf
+<p>every nginx has a parent configuration file and it is in <code>/etc/nginx/nginx.conf</code>
 </p>
 <li>2.write a new configuration file in /etc/nginx/conf.d/pakotinews.conf
 
