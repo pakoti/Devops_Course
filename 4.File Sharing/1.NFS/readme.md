@@ -24,9 +24,9 @@ nfs is usefull for transfering files in network.on both servers(client and also 
 
     mkdir /NFS-Share
 
-<p></p>
+<p>putt bellow line in <code>"/etc/exports"</code></p>
 
-    putt bellow line in "/etc/exports"
+    
     /NFS-Share	192.168.63.47(rw,sync,no_root_squash,no_all_squash)
 
 </li>
