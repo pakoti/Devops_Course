@@ -28,3 +28,7 @@
 </ul>
 
 <p>To be continued in near future ...</p>
+
+
+## Author
+[Dark Master!](https://github.com/pakoti)
