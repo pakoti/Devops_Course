@@ -15,6 +15,7 @@ For any FTP connection, it can operate in active mode or passive mode. Each mode
 Passive mode is the second way an FTP connection can operate. With passive mode FTP, a client connects and sends a PASV command. This command requests a port number to connect to. When the client receives the port, it then starts the second connection and sends the data. Passive mode FTP works well in tandem with firewalls that are configured for port forwarding. Data gets forwarded from the firewall port to the server port, so that outside clients are unable to directly access the server
 
 # How to configure Anonymous FTP Access?
+
 edit <code>/etc/vsftpd/vsftpd.conf</code>:
 
     vim /etc/vsftpd/vsftpd.conf
@@ -24,14 +25,16 @@ edit <code>/etc/vsftpd/vsftpd.conf</code>:
 
 
 # How to configure FTP using username and password?
+
 edit <code>/etc/vsftpd/vsftpd.conf</code>:
 
     vim /etc/vsftpd/vsftpd.conf
 
 
+<p>and put this there</p>
+
 
     anonymous_enable=NO
-
     userlist_enable=YES
     userlist_deny=NO
     local_enable=YES
@@ -39,16 +42,28 @@ edit <code>/etc/vsftpd/vsftpd.conf</code>:
     listen_ipv6=NO
 
 
-    How to configure passive ftp ?
-----------------------------------
-connect_from_port_20=NO
-pasv_enable=YES
-pasv_max_port=10100
-pasv_min_port=10090
+# How to configure passive ftp ?
+
+edit <code>/etc/vsftpd/vsftpd.conf</code>:
+
+    vim /etc/vsftpd/vsftpd.conf
+
+<p>and put this there</p>
+
+    connect_from_port_20=NO
+    pasv_enable=YES
+    pasv_max_port=10100
+    pasv_min_port=10090
 
 
 
 # How to jail ftp user ?
+
+edit <code>/etc/vsftpd/vsftpd.conf</code>:
+
+    vim /etc/vsftpd/vsftpd.conf
+
+<p>and put this there</p>
 
     chroot_local_user=YES
     allow_writeable_chroot=YES
