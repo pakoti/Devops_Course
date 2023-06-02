@@ -3,8 +3,8 @@
 
 
 ## Table of contents
-* [Course Objectives](#Course_Objectives)
-* [General info](#General_info)
+* [Course Objectives](#Course)
+* [General info](#General)
 * [Tasks](#tasks)
 * [Author](#Author)
 
@@ -16,10 +16,10 @@ This project is complete course in DEVOPS.
 ## Technologies
 Project is created with:
 * Alma-Linux version: 8
+* ...
 
 
-
-## Course Objectives
+## Course
 <ul>
 <li>1.NGINX</li>
 <li>2.DNS</li>
