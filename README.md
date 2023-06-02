@@ -3,13 +3,13 @@
 
 
 ## Table of contents
-* [Course Objectives](#Course Objectives)
-* [General info](#General info)
+* [Course Objectives](#Course_Objectives)
+* [General info](#General_info)
 * [Tasks](#tasks)
 * [Author](#Author)
 
 
-## General info
+<h1>General info </h1>
 This project is complete course in DEVOPS.  
 
 
@@ -19,7 +19,7 @@ Project is created with:
 
 
 
-# Course Objectives
+## Course Objectives
 <ul>
 <li>1.NGINX</li>
 <li>2.DNS</li>
