@@ -7,6 +7,7 @@
 * [General info](#General)
 * [Tasks](#tasks)
 * [Author](#Author)
+* [License](#license)
 
 
 <h1>General info </h1>
@@ -50,3 +51,7 @@ Project is created with:
 
 ## Author
 [Dark Master!](https://github.com/pakoti)
+
+## License
+
+https://choosealicense.com/licenses/cc0-1.0/
