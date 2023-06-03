@@ -3,7 +3,7 @@
 
 
 ## Table of contents
-* [Course Objectives](#Course)
+* [Course Objectives](#Objectives)
 * [General info](#General)
 * [Tasks](#tasks)
 * [Author](#Author)
@@ -20,7 +20,7 @@ Project is created with:
 * ...
 
 
-## Course
+## Objectives
 <ul>
 <li>1.NGINX</li>
 <li>2.DNS</li>
