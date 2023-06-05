@@ -11,7 +11,10 @@ BIND Hardening
 
 Set bellow option
 
-    version   "null";
+    version   "null"; 
+    
+or whatever you like to put.
+
 </li>
 <li>3. Run only BIND</li>
 
