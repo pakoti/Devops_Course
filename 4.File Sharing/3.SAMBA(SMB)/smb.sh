@@ -16,7 +16,7 @@ echo ===========================================================================
 echo ===================================================================================================================
 echo [+] smb is ready just edit /etc/samba/smb.conf file and put
 
-    [sharefolder]
+echo    [sharefolder]
             path = /SMB-Share
             browsable = Yes
             read only = No
