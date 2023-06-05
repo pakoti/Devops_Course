@@ -16,7 +16,12 @@ this section is for quering in root hints.and in here <code>/var/named/named.ca<
 
     rndc dumpdb -cache
 
-# how to change TTL?
+# How to change TTL?
 edit the <code>/var/named/data/amin.db</code>:
 
     vim /var/named/data/amin.db
+
+# How to look for status in DNS?
+run this coomand and in that directory you have <code>named_stats.txt</code>
+
+    rndc stat
