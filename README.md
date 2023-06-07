@@ -9,17 +9,17 @@
 
  | Concept  | Description  | Link  |
  | ---  | ---  | --  |
- | NGINX  | Configuring a simple nginx webserver(NGINX as web server)  |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/1.Simple_WebServer">link</a> |
- |   | Configuring SSL certificate on our nginx webserver  |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/2.Configuring_SSL">link</a> |
- |   | Running Tomcat behind Nginx(NGINX as reverse proxy) |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/3.Tomcat_Behind_nginx">link</a> |
- |   | Running PHP behind Nginx(NGINX as reverse proxy)  |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/4.Load_Balancer">link</a> |
- |   | Configuring Nginx as Load-balancer(NGINX as loadbalancer)  |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/5.php-nginx">link</a> |
- | DNS  | Configuring Secondary Name server  |<a href="https://github.com/pakoti/Devops_Course/tree/main/2.DNS_Concepts">link</a> |
- |   | Configuring Caching Only Name Server  |<a href="https://github.com/pakoti/Devops_Course/tree/main/2.DNS_Concepts">link</a> |
- |   | Configuring DNS Forwarder  |<a href="https://github.com/pakoti/Devops_Course/tree/main/2.DNS_Concepts">link</a> |
- | LVM  | Configure Troubleshoot and LVM  |<a href="https://github.com/pakoti/Devops_Course/tree/main/3.Configuring%20LVM">link</a> |
+ | NGINX  | Configuring a simple nginx webserver(NGINX as web server)  |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/1.Simple_WebServer">Link</a> |
+ |   | Configuring SSL certificate on our nginx webserver  |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/2.Configuring_SSL">Link</a> |
+ |   | Running Tomcat behind Nginx(NGINX as reverse proxy) |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/3.Tomcat_Behind_nginx">Link</a> |
+ |   | Running PHP behind Nginx(NGINX as reverse proxy)  |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/4.Load_Balancer">Link</a> |
+ |   | Configuring Nginx as Load-balancer(NGINX as loadbalancer)  |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/5.php-nginx">Link</a> |
+ | DNS  | Configuring Secondary Name server  |<a href="https://github.com/pakoti/Devops_Course/tree/main/2.DNS_Concepts">Link</a> |
+ |   | Configuring Caching Only Name Server  |<a href="https://github.com/pakoti/Devops_Course/tree/main/2.DNS_Concepts">Link</a> |
+ |   | Configuring DNS Forwarder  |<a href="https://github.com/pakoti/Devops_Course/tree/main/2.DNS_Concepts">Link</a> |
+ | LVM  | Configure Troubleshoot and LVM  |<a href="https://github.com/pakoti/Devops_Course/tree/main/3.Configuring%20LVM">Link</a> |
  |   | Show file differences that haven't been staged  |  |
- | File Sharing   | Show file differences that haven't been staged  |<a href="https://github.com/pakoti/Devops_Course/tree/main/4.File%20Sharing">link</a>  |
+ | File Sharing   | Show file differences that haven't been staged  |<a href="https://github.com/pakoti/Devops_Course/tree/main/4.File%20Sharing">Link</a>  |
  | Firewalls  |   |  |
 
 
@@ -30,7 +30,7 @@
 
 [Dark Master!](https://github.com/pakoti)
 
-[Amin Zafarghandi](https://ir.linkedin.com/in/amin-zafarghandi-b9556b134)
+[Amin Zafarghandi](https://ir.Linkedin.com/in/amin-zafarghandi-b9556b134)
 
 
 ## License
