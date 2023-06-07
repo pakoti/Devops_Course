@@ -23,13 +23,29 @@ Project is created with:
 * Alma-Linux version: 8
 * ...
 
+| Concept | Description |
+| --- | --- |
+| NGINX | 1.Configuring a simple nginx webserver(NGINX as web server) |
+|  | 2.Configuring SSL certificate on our nginx webserver |
+|  | 3.Running Tomcat behind Nginx(NGINX as reverse proxy)|
+|  | 4.Running PHP behind Nginx(NGINX as reverse proxy) |
+|  | 5.Configuring Nginx as Load-balancer(NGINX as loadbalancer) |
+| DNS | 7.Configuring Secondary Name server |
+|  | 8.Configuring Caching Only Name Server |
+|  | 9.Configuring DNS Forwarder |
+| LVM | 10.Configure Troubleshoot and LVM |
+|  | Show file differences that haven't been staged |
+| File Sharing  | Show file differences that haven't been staged |
+|  | Show file differences that haven't been staged |
+| Firewalls | Show file differences that haven't been staged |
 
 ## Objectives
 <ul>
 <li>1.NGINX</li>
 <li>2.DNS</li>
 <li>3.LVM(Logical Volume Manager)</li>
-<li>4.</li>
+<li>4.File Sharing</li>
+<li>5.Firewalls</li>
 
 </ul>
 
