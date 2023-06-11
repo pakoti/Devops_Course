@@ -83,10 +83,17 @@ here are some rules in iptables
     iptables -A OUTPUT -j DROP
 
 </li>
+<li>3.a scenario that accepts ICMP traffic: 
+
+    iptables -A INPUT -p icmp --icmp-type echo-request -j ACCEPT -m comment --comment "Accept ICMP Traffic"
+    iptables -A OUTPUT -p icmp --icmp-type echo-reply -j ACCEPT -m comment --comment "Accept ICMP Traffic"
+
+</li>
+
+
 
 </ul>
 
-# ICMP
 <h3>ICMP-Types:</h3>
 
 <ul>
