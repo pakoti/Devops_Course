@@ -21,8 +21,8 @@
  | File Sharing   | Configuring NFS  |<a href="https://github.com/pakoti/Devops_Course/tree/main/4.File%20Sharing">Link</a>  |
  | File Sharing   | Configuring FTP  |<a href="https://github.com/pakoti/Devops_Course/tree/main/4.File%20Sharing">Link</a>  |
  | File Sharing   | Configuring SAMBA(SMB)  |<a href="https://github.com/pakoti/Devops_Course/tree/main/4.File%20Sharing">Link</a>  |
- | Firewalls  |  How to configure firewalls in linux. | <a href="https://github.com/pakoti/Devops_Course/tree/main/2.DNS_Concepts">Link</a> |
- | Docker  |   |    |
+ | Firewalls  |  How to configure firewalls in linux. | <a href="https://github.com/pakoti/Devops_Course/tree/main/5.Firewalls">Link</a> |
+ | Docker  | Concepts Installation  |  <a href="https://github.com/pakoti/Devops_Course/tree/main/6.Docker">Link</a>  |
 
 <p>To be continued in near future ...</p>
 
