@@ -39,6 +39,7 @@ here are some rules in iptables
 
 </li>
 <li>iptables sample scenario:
+
 <p>To drop all inbound traffic</p>
 
     iptables -A INPUT -s 192.168.21.1 -j DROP
@@ -60,23 +61,42 @@ here are some rules in iptables
     iptables -D INPUT -s 192.168.21.1 -m conntrack --ctstate NEW -j DROP
 
 <p>192.168.21.1 ----> Server ---> Ping ---> ACCEPT</p>
+
 </li>
-<li>2. 
+
+<li>2.a scenario that you can ssh to outside but nobody can ssh into your server
+
+<p>inbound traffic is accepted</p>
 
     iptables -A INPUT -p tcp --dport 22 -s 192.168.21.1 -j ACCEPT
+
+<p>Drops whatever gets out</p>
+
     iptables -A INPUT -j DROP
+
+<p>outbound traffic is accepted</p>
+
     iptables -A OUTPUT -p tcp --sport 22 -d 192.168.21.1. -j ACCEPT
+
+<p>Drops whatever gets in</p>
+
     iptables -A OUTPUT -j DROP
 
 </li>
+
 </ul>
 
-
+# ICMP
 <h3>ICMP-Types:</h3>
+
 <ul>
+
 <li>1.echo-request</li>
+
 <li>2.echo-reply</li>
+
 <li>3.mangle</li>
+
 </ul>
 
 
