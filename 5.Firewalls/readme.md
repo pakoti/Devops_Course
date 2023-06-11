@@ -40,13 +40,26 @@ here are some rules in iptables
 </li>
 <li>iptables sample scenario:
 <p>To drop all inbound traffic</p>
+
     iptables -A INPUT -s 192.168.21.1 -j DROP
+
 <p>to track all old connection and drops new connection(its good FOR MAINTing servers),to look for who connected to our servers <code>netstat -tnlp</code>.</p>
+
     iptables -A INPUT -s 192.168.21.1 -m conntrack --ctstate NEW,ESTABLISHED -j DROP
+
+<p>when you want insert rule to 3rd line in tables just:</p>
+
     iptables -I INPUT 3 -s 192.168.21.1 -m conntrack --ctstate NEW -j DROP
 
+<p>when you want insert rules in first table just:</p>
 
-192.168.21.1 ----> Server ---> Ping ---> ACCEPT
+    iptables -I INPUT -s 192.168.21.1 -m conntrack --ctstate NEW -j DROP
+
+<p>for deleting that rule:</p>
+
+    iptables -D INPUT -s 192.168.21.1 -m conntrack --ctstate NEW -j DROP
+
+<p>192.168.21.1 ----> Server ---> Ping ---> ACCEPT</p>
 </li>
 <li>2. 
 
