@@ -9,19 +9,20 @@
 
  | Concept  | Description  | Link  |
  | ---  | ---  | --  |
- | NGINX  | Configuring a simple nginx webserver(NGINX as web server)  |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/1.Simple_WebServer">Link</a> |
- |   | Configuring SSL certificate on our nginx webserver  |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/2.Configuring_SSL">Link</a> |
- |   | Running Tomcat behind Nginx(NGINX as reverse proxy) |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/3.Tomcat_Behind_nginx">Link</a> |
- |   | Running PHP behind Nginx(NGINX as reverse proxy)  |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/4.Load_Balancer">Link</a> |
- |   | Configuring Nginx as Load-balancer(NGINX as loadbalancer)  |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/5.php-nginx">Link</a> |
+ | NGINX  | Configuring  nginx as webserver |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/1.Simple_WebServer">Link</a> |
+ | SSL certificate  | Configuring SSL certificate on nginx webserver  |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/2.Configuring_SSL">Link</a> |
+ | NGINX(reverse proxy) | Running Tomcat behind Nginx |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/3.Tomcat_Behind_nginx">Link</a> |
+ | NGINX(loadbalancer)  | Running PHP behind Nginx  |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/4.Load_Balancer">Link</a> |
+ | NGINX(loadbalancer)  | Configuring Nginx as Load-balancer  |<a href="https://github.com/pakoti/Devops_Course/tree/main/1.NGINX/5.php-nginx">Link</a> |
  | DNS  | Configuring Secondary Name server  |<a href="https://github.com/pakoti/Devops_Course/tree/main/2.DNS_Concepts">Link</a> |
- |   | Configuring Caching Only Name Server  |<a href="https://github.com/pakoti/Devops_Course/tree/main/2.DNS_Concepts">Link</a> |
- |   | Configuring DNS Forwarder  |<a href="https://github.com/pakoti/Devops_Course/tree/main/2.DNS_Concepts">Link</a> |
+ | DNS  | Configuring Caching Only Name Server  |<a href="https://github.com/pakoti/Devops_Course/tree/main/2.DNS_Concepts">Link</a> |
+ | DNS  | Configuring DNS Forwarder  |<a href="https://github.com/pakoti/Devops_Course/tree/main/2.DNS_Concepts">Link</a> |
  | LVM  | Configure Troubleshoot and LVM  |<a href="https://github.com/pakoti/Devops_Course/tree/main/3.Configuring%20LVM">Link</a> |
- |   | Show file differences that haven't been staged  |  |
- | File Sharing   | Show file differences that haven't been staged  |<a href="https://github.com/pakoti/Devops_Course/tree/main/4.File%20Sharing">Link</a>  |
- | Firewalls  |   |  |
-
+ | File Sharing   | Configuring NFS  |<a href="https://github.com/pakoti/Devops_Course/tree/main/4.File%20Sharing">Link</a>  |
+ | File Sharing   | Configuring FTP  |<a href="https://github.com/pakoti/Devops_Course/tree/main/4.File%20Sharing">Link</a>  |
+ | File Sharing   | Configuring SAMBA(SMB)  |<a href="https://github.com/pakoti/Devops_Course/tree/main/4.File%20Sharing">Link</a>  |
+ | Firewalls  |  How to configure firewalls in linux. | <a href="https://github.com/pakoti/Devops_Course/tree/main/2.DNS_Concepts">Link</a> |
+ | Docker  |   |    |
 
 <p>To be continued in near future ...</p>
 
