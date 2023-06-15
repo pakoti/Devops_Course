@@ -1,6 +1,6 @@
 # BIND Hardening
 
-BIND Hardening
+how to do BIND Hardening?
 
 <ul>
 <li>1. Update BIND version</li>
