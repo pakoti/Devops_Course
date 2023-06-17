@@ -142,6 +142,27 @@ Namespaces and cgroups are the building blocks for containers and modern applica
 
 
 # Dockerfile
+Docker file that will contain the necessary instructions to create the environment.
+
+       # A dockerfile must always start by importing the base image.
+       # We use the keyword 'FROM' to do that.
+       # In our example, we want import the python image.
+       # So we write 'python' for the image name and 'latest' for the version.
+       FROM python:latest
+
+       # In order to launch our python code, we must import it into our image.
+       # We use the keyword 'COPY' to do that.
+       # The first parameter 'main.py' is the name of the file on the host.
+       # The second parameter '/' is the path where to put the file on the image.
+       # Here we put the file at the image root folder.
+       COPY main.py /
+
+       # We need to define the command to launch when we are going to run the image.
+       # We use the keyword 'CMD' to do that.
+       # The following command will execute "python ./main.py".
+       CMD [ "python", "./main.py" ]
+`
+
 
        FROM python:2.7
        RUN mkdir /app
@@ -156,3 +177,4 @@ Namespaces and cgroups are the building blocks for containers and modern applica
        RUN mkdir /app
        CMD ping 8.8.8.8
 
+<a href="https://www.freecodecamp.org/news/a-beginners-guide-to-docker-how-to-create-your-first-docker-application-cc03de9b639f/">Resource</a>
