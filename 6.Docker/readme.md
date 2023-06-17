@@ -63,21 +63,18 @@ You can change the status (frozen, stopped, or restarted) of all processes in a 
 </li>
 </ul>
 
-
-
 Cgroups provide the following features:
 
-<ul>
+<p>Resource limits – You can configure a cgroup to limit how much of a particular resource (memory or CPU, for example) a process can use.
+Prioritization – You can control how much of a resource (CPU, disk, or network) a process can use compared to processes in another cgroup when there is resource contention.
+Accounting – Resource limits are monitored and reported at the cgroup level.
+Control – You can change the status (frozen, stopped, or restarted) of all processes in a cgroup with a single command.</p>
 
-    Resource limits – You can configure a cgroup to limit how much of a particular resource (memory or CPU, for example) a process can use.
-    Prioritization – You can control how much of a resource (CPU, disk, or network) a process can use compared to processes in another cgroup when there is resource contention.
-    Accounting – Resource limits are monitored and reported at the cgroup level.
-    Control – You can change the status (frozen, stopped, or restarted) of all processes in a cgroup with a single command.
+<p>So basically you use cgroups to control how much of a given key resource (CPU, memory, network, and disk I/O) can be accessed or used by a process or set of processes. Cgroups are a key component of containers because there are often multiple processes running in a container that you need to control together. In a Kubernetes environment, cgroups can be used to implement resource requests and limits and corresponding QoS classes at the pod level.</p>
 
+# Conclusion (namespace and cgroups)
 
-
-
-
+Namespaces and cgroups are the building blocks for containers and modern applications. Having an understanding of how they work is important as we refactor applications to more modern architectures.Namespaces provide isolation of system resources, and cgroups allow for fine‑grained control and enforcement of limits for those resources.Containers are not the only way that you can use namespaces and cgroups. Namespaces and cgroup interfaces are built into the Linux kernel, which means that other applications can use them to provide separation and resource constraints. 
 
 # How to start first container ?
 
