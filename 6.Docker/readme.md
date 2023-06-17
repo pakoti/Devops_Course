@@ -86,30 +86,53 @@ Namespaces and cgroups are the building blocks for containers and modern applica
 
        docker container run -d --name webapp sleep 1000
        docker container run -d nginx 
+
+List images
+
        docker container ls -a
        docker container ls -aq
+
        docker container stop busy_dijkstra
+
        docker container kill flamboyant_ganguly
+
        docker container stop --time 2
+
        docker container rm --force jovial_haibt
+
        docker container inspect webapp
 
 
 
        docker container logs -f --tail 20 pingapp
+
+
        docker container rm --force $(docker container ls -qa)
+
+
+
+Run a command in a running container
+
        docker container exec -it sleepapp sh
        docker container exec -it --user=amin sleepapp sh
        docker container exec -it --workdir=/opt sleepapp sh
        docker container exec -it --env class=devops sleepapp sh
+
        docker container inspect sleepapp  -f "{{.NetworkSettings.Networks.bridge.IPAddress}}"
+
        CTRL+P+Q
+
        docker container cp sleepapp:/opt/script.sh .
        docker container cp script.sh sleepapp:/opt/
+
        docker container restart sleepapp
+
        docker container stats $(docker container ls -qa)
+
        docker container update sleepapp --restart always
+
        docker container run -d --name pingapp --restart always alpine ping 8.8.8.8
+
        unshare --fork  --pid --mount  --net /bin/sh
 
 
