@@ -162,13 +162,12 @@ detach the terminal from container output:
 
 
 # Docker Image
+<a href="https://jfrog.com/devops-tools/article/understanding-and-building-docker-images/">Resource</a>
+A Docker image is a read-only template containing a set of instructions for creating a container that can run on the Docker platform. It provides a convenient way to package up applications and preconfigured server environments, which you can use for your own private use or share publicly with other Docker users. Docker images are also the starting point for anyone using Docker for the first time.you can also see this <a href="https://docs.docker.com/storage/storagedriver/">link</a> for more information.
 
 
-<a href="https://docs.docker.com/storage/storagedriver/">link</a>
+
        
-
-
-
 
 # Image creation way : 
 
