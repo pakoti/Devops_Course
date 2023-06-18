@@ -33,3 +33,7 @@ as we previously saw in Bind Master Zone we configure <code>/etc/named.conf</cod
     rndc reload
     rndc reload amin.com
     named-checkzone amin.com /var/named/data/amin.db
+
+
+
+<img src="pic5.jpg" alt="DNS as secondary name server">
