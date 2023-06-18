@@ -87,25 +87,36 @@ Namespaces and cgroups are the building blocks for containers and modern applica
        docker container run -d --name webapp sleep 1000
        docker container run -d nginx 
 
-List images
+List images:
 
        docker container ls -a
        docker container ls -aq
 
+Stop one or more running containers:
+
        docker container stop busy_dijkstra
+
+Kill one or more running containers:
 
        docker container kill flamboyant_ganguly
 
+The only option for docker stop is -t (–time) which allows you to specify a wait time before stopping a container. 10 seconds is the default value, which is supposed to be enough for the container to gracefully stop:
+
        docker container stop --time 2
+
+This command force-removes a running container:
 
        docker container rm --force jovial_haibt
 
+Display detailed information on one or more containers:
+
        docker container inspect webapp
 
-
+Show last 20 logs in Container:
 
        docker container logs -f --tail 20 pingapp
 
+To delete all volumes:
 
        docker container rm --force $(docker container ls -qa)
 
@@ -120,7 +131,11 @@ Run a command in a running container
 
        docker container inspect sleepapp  -f "{{.NetworkSettings.Networks.bridge.IPAddress}}"
 
+detach the terminal from container output:
+
        CTRL+P+Q
+
+
 
        docker container cp sleepapp:/opt/script.sh .
        docker container cp script.sh sleepapp:/opt/
