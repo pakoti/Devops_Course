@@ -214,4 +214,56 @@ Docker file that will contain the necessary instructions to create the environme
        RUN mkdir /app
        CMD ping 8.8.8.8
 
-<a href="https://www.freecodecamp.org/news/a-beginners-guide-to-docker-how-to-create-your-first-docker-application-cc03de9b639f/">Resource</a>
+<a href="https://www.freecodecamp.orgnewsa-beginners-guide-to-docker-how-to-create-your-first-docker-application-cc03de9b639f/">Resource</a>
+
+Docker Container
+Docker Image
+      Dockerfile
+--------------
+
+
+192.168.63.47:/sources/python.tar
+username: root
+password: Aa111111
+
+scp 192.168.63.47:/sources/python.tar /root
+
+docker image save python:2.7 > python.tar
+docker image load < python.tar
+
+docker image pull python:2.7
+
+sample python app (app.py)
+--------------------
+import time
+time.sleep(60)
+print("Docker Class")
+time.sleep(100)
+
+Sample Dockerfile
+------------------------
+FROM python:2.7
+RUN mkdir /app && .... \
+WORKDIR /app
+COPY app.py .
+CMD ["python","app.py"]
+
+docker image build . -t myapp:v1.1
+
+
+
+
+CMD ["nginx", "-g", "daemon off;"]
+
+
+CMD
+ENTRYPOINT
+-------------------
+FROM alpine:latest
+RUN apk update && apk add iputils
+ENTRYPOINT ping 8.8.8.8
+
+
+
+docker container commit pingapp mynginx:v1.2
+
