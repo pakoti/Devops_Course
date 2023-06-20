@@ -222,48 +222,48 @@ Docker Image
 --------------
 
 
-192.168.63.47:/sources/python.tar
-username: root
-password: Aa111111
+       192.168.63.47:/sources/python.tar
+       username: root
+       password: Aa111111
 
-scp 192.168.63.47:/sources/python.tar /root
+       scp 192.168.63.47:/sources/python.tar /root
 
-docker image save python:2.7 > python.tar
-docker image load < python.tar
+       docker image save python:2.7 > python.tar
+       docker image load < python.tar
 
-docker image pull python:2.7
+       docker image pull python:2.7
 
-sample python app (app.py)
+       sample python app (app.py)
 --------------------
-import time
-time.sleep(60)
-print("Docker Class")
-time.sleep(100)
+       import time
+       time.sleep(60)
+       print("Docker Class")
+       time.sleep(100)
 
 Sample Dockerfile
 ------------------------
-FROM python:2.7
-RUN mkdir /app && .... \
-WORKDIR /app
-COPY app.py .
-CMD ["python","app.py"]
+       FROM python:2.7
+       RUN mkdir /app && .... \
+       WORKDIR /app
+       COPY app.py .
+       CMD ["python","app.py"]
 
-docker image build . -t myapp:v1.1
-
-
+       docker image build . -t myapp:v1.1
 
 
-CMD ["nginx", "-g", "daemon off;"]
 
 
-CMD
-ENTRYPOINT
+       CMD ["nginx", "-g", "daemon off;"]
+
+
+       CMD
+       ENTRYPOINT
 -------------------
-FROM alpine:latest
-RUN apk update && apk add iputils
-ENTRYPOINT ping 8.8.8.8
+       FROM alpine:latest
+       RUN apk update && apk add iputils
+       ENTRYPOINT ping 8.8.8.8
 
 
 
-docker container commit pingapp mynginx:v1.2
+       docker container commit pingapp mynginx:v1.2
 
