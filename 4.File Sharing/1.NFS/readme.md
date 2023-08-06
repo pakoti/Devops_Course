@@ -47,4 +47,5 @@ nfs is usefull for transfering files in network.on both servers(client and also 
 </li>
 
 </ul>
+<img src="nfs-tpopology.jpg" alt="nfs tpopology">
 

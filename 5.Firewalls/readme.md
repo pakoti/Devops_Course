@@ -16,6 +16,7 @@ How to configure firewalls in linux.
 <li>2.nat</li>
 <li>3.mangle</li>
 </ul>
+<img src="pic1.jpg" alt="Iptables in linux">
 
 
 <p>every firewall in world is statefull or stateless.iptables is stateless and you should write input and output rules.</p>

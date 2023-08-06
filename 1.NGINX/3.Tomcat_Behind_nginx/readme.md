@@ -101,3 +101,7 @@
 </li>
 <p>if you change SELINUX=PERMISIVE its only monitor and does nothing.<p>
 </ul>
+
+
+
+<img src="pic1.jpg" alt="Tomact">
