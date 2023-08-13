@@ -1,6 +1,17 @@
 # Docker
 Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called container.
 
+# Docker
+<ul>
+<li>Installation</li>
+<li>what is namespace?</li>
+<li>what is Cgroup?</li>
+<li>Conclusion (namespace and cgroups)</li>
+<li>How to start first container?</li>
+<li></li>
+
+</ul>
+
 
 
 # Installation
@@ -75,7 +86,7 @@ Control – You can change the status (frozen, stopped, or restarted) of all pro
 
 Namespaces and cgroups are the building blocks for containers and modern applications. Having an understanding of how they work is important as we refactor applications to more modern architectures.Namespaces provide isolation of system resources, and cgroups allow for fine‑grained control and enforcement of limits for those resources.Containers are not the only way that you can use namespaces and cgroups. Namespaces and cgroup interfaces are built into the Linux kernel, which means that other applications can use them to provide separation and resource constraints. 
 
-# How to start first container ?
+# How to start first container?
 
 
        docker container run alpine sleep 100000
