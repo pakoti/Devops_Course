@@ -35,7 +35,7 @@ Namespaces are a feature of the Linux kernel that partitions kernel resources su
 </li>
 </ul>
 <a href="https://www.nginx.com/blog/what-are-namespaces-cgroups-how-do-they-work/">Resource[Link]</a>
-
+<img= src="namespaces.jpg">
 
 # what is Cgroup?
 
