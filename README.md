@@ -25,6 +25,7 @@
  | Firewalls  |  How to configure firewalls in linux. | <a href="https://github.com/pakoti/Devops_Course/tree/main/5.Firewalls">Link</a> |
  | Docker  | Concepts  and Installation  |  <a href="https://github.com/pakoti/Devops_Course/tree/main/6.Docker">Link</a>  |
  | Ansible  | Concepts  and Installation  |  <a href="https://github.com/pakoti/Devops_Course/tree/main/7.Ansible">Link</a>  |
+ | Git  | Concepts  and Installation  |  <a href="https://github.com/pakoti/Devops_Course/tree/main/8.Git">Link</a>  |
 
 <p>To be continued in near future ...</p>
 
