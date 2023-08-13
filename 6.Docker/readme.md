@@ -4,13 +4,11 @@ Docker is a set of platform as a service (PaaS) products that use OS-level virtu
 
 
 # Installation
-if you want install it on Red-Hat Based linux just run <code>install.sh</code> .
+if you want install it on Red-Hat Based linux just look at <code>install_docker.sh</code> and <code>install_docker2.sh</code>.
 
 
 # what is NameSpace? 
 Namespaces are a feature of the Linux kernel that partitions kernel resources such that one set of processes sees one set of resources and another set of processes sees a different set of resources. The feature works by having the same namespace for a group of resources and processes, but those namespaces refer to distinct resources.<a href="https://en.wikipedia.org/wiki/Linux_namespaces">[Link]</a>.There are seven common types of namespaces in wide use today. Using the apartment as our guide, let's walk through a summary of what each type does. Below is a brief overview of each namespace type. In subsequent articles, we will show how each namespace works by example.<a href="https://www.redhat.com/sysadmin/7-linux-namespaces">[Link]</a>
-
-
 
 
 <ul>
@@ -34,13 +32,13 @@ Namespaces are a feature of the Linux kernel that partitions kernel resources su
 <p>allows a single system to appear to have different host and domain names to different processes.</p>
 </li>
 </ul>
-<a href="https://www.nginx.com/blog/what-are-namespaces-cgroups-how-do-they-work/">Resource[Link]</a>
+<a href="https://www.nginx.com/blog/what-are-namespaces-cgroups-how-do-they-work/">[Link]</a>
 
 <img= src="namespaces.JPG" >
 
 # what is Cgroup?
 
-<a href="https://www.nginx.com/blog/what-are-namespaces-cgroups-how-do-they-work/">Resource[Link] </a>.A control group (cgroup) is a Linux kernel feature that limits, accounts for, and isolates the resource usage (CPU, memory, disk I/O, network, and so on) of a collection of processes.Cgroups provide the following features:
+<a href="https://www.nginx.com/blog/what-are-namespaces-cgroups-how-do-they-work/">[Link] </a>.A control group (cgroup) is a Linux kernel feature that limits, accounts for, and isolates the resource usage (CPU, memory, disk I/O, network, and so on) of a collection of processes.Cgroups provide the following features:
 <ul>
 <li>Resource limits:
 
@@ -153,7 +151,7 @@ detach the terminal from container output:
 
 
 
-# docker restart policy
+# Docker Restart Policy
 
 
 <a href="https://docs.docker.com/config/containers/start-containers-automatically/">link</a>
@@ -163,20 +161,20 @@ detach the terminal from container output:
 
 
 # Docker Image
-<a href="https://jfrog.com/devops-tools/article/understanding-and-building-docker-images/">Resource</a>
+<a href="https://jfrog.com/devops-tools/article/understanding-and-building-docker-images/">link</a>
 A Docker image is a read-only template containing a set of instructions for creating a container that can run on the Docker platform. It provides a convenient way to package up applications and preconfigured server environments, which you can use for your own private use or share publicly with other Docker users. Docker images are also the starting point for anyone using Docker for the first time.you can also see this <a href="https://docs.docker.com/storage/storagedriver/">link</a> for more information.
 
 
 
        
 
-# Image creation way : 
+# Image creation way 
 
-
-	1. Dockerfile
-	2. Download from dockerhub
-	3. commit from running container
-
+<ul>
+<li>1. Dockerfile</li>
+<li>2. Download from dockerhub</li>
+<li>3. commit from running container</li>
+</ul>
 
 
 # Dockerfile
@@ -215,12 +213,12 @@ Docker file that will contain the necessary instructions to create the environme
        RUN mkdir /app
        CMD ping 8.8.8.8
 
-<a href="https://www.freecodecamp.orgnewsa-beginners-guide-to-docker-how-to-create-your-first-docker-application-cc03de9b639f/">Resource</a>
+<a href="https://www.freecodecamp.orgnewsa-beginners-guide-to-docker-how-to-create-your-first-docker-application-cc03de9b639f/">link</a>
 
 Docker Container
 Docker Image
       Dockerfile
---------------
+
 
 
        192.168.63.47:/sources/python.tar
@@ -235,14 +233,14 @@ Docker Image
        docker image pull python:2.7
 
        sample python app (app.py)
---------------------
+
        import time
        time.sleep(60)
        print("Docker Class")
        time.sleep(100)
 
 Sample Dockerfile
-------------------------
+
        FROM python:2.7
        RUN mkdir /app && .... \
        WORKDIR /app
@@ -259,7 +257,7 @@ Sample Dockerfile
 
        CMD
        ENTRYPOINT
--------------------
+
        FROM alpine:latest
        RUN apk update && apk add iputils
        ENTRYPOINT ping 8.8.8.8
