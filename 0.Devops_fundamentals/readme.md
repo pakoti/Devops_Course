@@ -1,3 +1,57 @@
+## DevOps Tools
+
+
+<ol>
+<li>Version Control Systems &amp; Code Repository Management</li>
+<li>Containerization</li>
+<li>Infrastructure as Code (IaC)</li>
+<li>Configuration Management</li>
+<li>Container Orchestration</li>
+<li>Continuous Integration &amp; Continuous Delivery (CI/CD)</li>
+<li>Cloud Providers</li>
+<li>Observability</li>
+<li>Log Management</li>
+<li>Collaborative Infrastructure</li>
+<li>Software Testing &amp; Quality Assurance</li>
+<li>Developer Environment</li>
+<li>Integrated Development Environment (IDE)</li>
+<li>Security &amp; Vulnerability Scanning</li>
+<li>Service Mesh</li>
+<li>Secret Management</li>
+<li>Infrastructure Access Management</li>
+<li>Application Deployment &amp; Progressive Delivery</li>
+<li>Serverless Solutions</li>
+<li>Chaos Engineering</li>
+<li>AI-Powered Code Completion tools</li>
+</ol>
+
+
+## Devops Principals
+
+Top 7 DevOps Principles for Successful Development Teams
+<ul>
+<li>Collaboration</li>
+<li>Customer-Centric Decision Making</li>
+<li>Making Data Based Decision</li>
+<li>Automation</li>
+<li>Regular Improvement</li>
+<li>Failure as a Learning Opportunity </li>
+<li>Responsibility Throughout the Lifecycle </li>
+</ul>
+
+## Devops Metric
+
+<ul>
+
+<li>Deployment frequency</li>
+
+<li>Lead time for changes</li>
+
+<li>Time to restore service</li>
+
+<li>Change failure rate</li>
+
+</ul>
 
 ## The Twelve Factors
 <ul>
